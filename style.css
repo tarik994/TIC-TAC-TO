@@ -1,0 +1,32 @@
+
+.wrapper{
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.game-main{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    cursor: pointer;
+}
+
+.cell{
+    border: 1px solid black;
+    font-size: 105px;
+}
+
+#restart-btn{
+    font-size: 22px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    background-color: rgb(202, 71, 71);
+    color: white;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity: .6;
+}
